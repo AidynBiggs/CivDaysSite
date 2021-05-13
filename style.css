@@ -4,10 +4,13 @@ main {
 nav {
   height: 200px;
   width: 100%;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.8);
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  top: 50%;
+  z-index: 30;
 }
 nav ul {
   list-style: none;
@@ -20,4 +23,14 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   padding: 10px;
+  font-size: 32px;
+  color: chartreuse;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
 }
