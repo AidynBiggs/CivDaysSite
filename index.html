@@ -12,8 +12,8 @@
 <body>
 
 <header>
-    <img src='./images/civdays.jpg' alt='Civilization Days' class='logo'>
-    <!--<h1>Civilization Days</h1>-->
+    <!--<img src='./images/civdays.jpg' alt='Civilization Days' class='logo'>
+    <h1>Civilization Days</h1>-->
     <input id='toggle' class='toggle' type='checkbox'>
     <label for='toggle' class='guitarmenu'>
         <span><i class='fas fa-guitar'></i></span>
@@ -29,16 +29,34 @@
         </ul>
     </nav>
 </header>
-<main>
-    <img src='./images/4guys.jpg' alt='Band Members' class='bandmembers'>
-    <div class='medialinks'>
-        <a class='insta' href='https://www.instagram.com/civdays/?hl=en' target="_blank">
-            <i class="fab fa-instagram"></i></a>
-        <a class='facebook' href='https://www.facebook.com/CivDays/'target="_blank">
-            <i class="fab fa-facebook"></i></a>
+<div>
+    <div class='bandmembers'>
+        <img src='./images/4guys.jpg' alt='Band Members' class='bandmembers'>
+        <div class='mediabar'>
+            <div class='media'>
+                <a href='https://www.instagram.com/civdays/?hl=en' target="_blank">
+                    <i class="fab fa-instagram"></i></a>
+                <a href='https://www.facebook.com/CivDays/'target="_blank">
+                    <i class="fab fa-facebook"></i></a>
+                <a href='https://open.spotify.com/album/0rtC3oDWysUUH0tr06EyhE?highlight=spotify:track:0eWDhY715ncPgK5x2jJ5jK'
+                    target="_blank">
+                    <i class="fab fa-spotify"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class='singleout'>
         <h1>New Single Out Now <br> Stream on Spotify</h1>
-        <a class='spotify'href='https://open.spotify.com/album/0rtC3oDWysUUH0tr06EyhE?highlight=spotify:track:0eWDhY715ncPgK5x2jJ5jK' target="_blank">
-            <i class="fab fa-spotify"></i></a>
+        <iframe class='album' src="https://open.spotify.com/embed/album/0rtC3oDWysUUH0tr06EyhE" width="300" height="250" frameborder="0"
+            allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+
+    
+    
+    <div class='song'>
+        <iframe class='song' src="https://open.spotify.com/embed/track/0eWDhY715ncPgK5x2jJ5jK" 
+        width="100%" height="80" frameborder="0" allowtransparency="true" 
+        allow="encrypted-media" toggle='compact'></iframe>'
     </div>
     </main>
 
