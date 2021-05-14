@@ -150,7 +150,7 @@ main {
   align-items: center;
 }
 .diagonal-box {
-  background-image: linear-gradient(45deg, #000307, #ebebeb);
+  background-image: linear-gradient(45deg, #f9f9fa, #c5b6b6);
   transform: skewY(-15deg);
   width: 70%;
   position: relative;
