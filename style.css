@@ -121,6 +121,8 @@ main {
   height: 200px;
   margin: 0;
   background-color: rgba(103, 175, 119, 0.7);
+  background-image: url(./images/edmonton.jpg);
+  background-repeat: no-repeat;
 }
 .medialinks .insta {
   position: absolute;
