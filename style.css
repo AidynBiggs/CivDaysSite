@@ -1,10 +1,13 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body {
   margin: 0;
   padding: 0;
-  font-family: monospace;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   box-sizing: border-box;
 }
 
@@ -40,7 +43,7 @@ nav ul {
   width: 100%;
   height: 245px;
   padding: 15px;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.7);
   left: -100%;
   top: 14%;
   transition: all 500ms;
@@ -53,7 +56,7 @@ nav a {
   color: white;
   text-decoration: none;
   font-size: 20px;
-  text-shadow: 4px 4px 4px rgba(85, 83, 83, 0.7);
+  text-shadow: 4px 4px 4px rgba(85, 83, 83, 0.8);
   text-transform: uppercase;
 }
 nav a:hover {
@@ -66,7 +69,7 @@ nav a:hover {
 .guitarmenu {
   position: absolute;
   cursor: pointer;
-  font-size: 30px;
+  font-size: 40px;
   color: rgb(82, 13, 13);
   text-shadow: 4px 4px 4px rgba(85, 83, 83, 0.7);
   top: 0;
@@ -104,10 +107,47 @@ nav a:hover {
 /* END LARGE SCREEN NAV VIEW */
 /* NAV STYLE END */
 main {
-  position: absolute;
 }
 .bandmembers {
-  position: relative;
   height: 100%;
   width: 100%;
+  margin: 0;
+}
+.medialinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  margin: 0;
+  background-color: rgba(103, 175, 119, 0.7);
+}
+.medialinks .insta {
+  position: absolute;
+  font-size: 50px;
+  color: rgb(209, 43, 43);
+  cursor: pointer;
+  left: 5%;
+  text-shadow: 4px 4px 4px rgba(85, 83, 83, 0.7);
+}
+.medialinks .facebook {
+  position: absolute;
+  font-size: 50px;
+  color: blue;
+  cursor: pointer;
+  left: 15%;
+  text-shadow: 4px 4px 4px rgba(85, 83, 83, 0.7);
+}
+.medialinks h1 {
+  text-align: center;
+  text-shadow: 4px 4px 4px rgba(85, 83, 83, 0.7);
+  font-weight: bolder;
+}
+.medialinks .spotify {
+  position: absolute;
+  font-size: 50px;
+  color: green;
+  cursor: pointer;
+  right: 10%;
+  text-shadow: 4px 4px 4px rgba(85, 83, 83, 0.7);
 }
